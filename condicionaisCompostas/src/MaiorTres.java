@@ -43,6 +43,7 @@ public class MaiorTres {
        /*
        * Alternativa para o exercicio acima sem usar condicionais.
        * Math.max compara os dois numeros e retorna o maior.
+       *
        * int maior = Math.max(n1, n2);
        * maior = Math.max(maior, n3);
        * System.out.println("O maior numero de tres é: " + maior);
