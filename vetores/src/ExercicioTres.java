@@ -29,8 +29,12 @@ public class ExercicioTres {
             i++;
         }
 
+        int somaFibonacci = 0;
         for (int j = 0; j < 20; j++) {
+            somaFibonacci += fibonacci[j];
             System.out.print(fibonacci[j] + " ");
         }
+        System.out.println();
+        System.out.println("A soma dos números da sequencia de fibonacci é de: " + somaFibonacci);
     }
 }
